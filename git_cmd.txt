@@ -25,3 +25,10 @@ git branch branchname
 git switch branchname
 git merge -m "message"  branchname
 git branch -d branchname
+
+
+
+
+git fetch / download all history
+git merge
+git pull

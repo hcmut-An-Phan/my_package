@@ -1,0 +1,27 @@
+git config --global user.name "name of user"
+git config --global user.email yourEmail@something.com
+git config --global init.default branch main
+git init
+git status
+git add filename.something
+git rm --cached filename.something
+git add --all/ -A/ .
+git commit -m "message along with commit"
+-> change files -> add them to staging -> commit them
+git diff
+git restore --staged filename.something
+git commit -a -m "updated text to free range" /skip staging
+git rm "filename.something"
+-> delete filename.something
+git restore "filename.something"
+git mv "oldname.something" "newname.something"
+git commit -m "changeed name"
+git log / get commit info
+git log --oneline
+git commit -m "changeed name" --amend / change comment
+git log -p / get detail info
+git reset {commit id}
+git branch branchname
+git switch branchname
+git merge -m "message"  branchname
+git branch -d branchname
